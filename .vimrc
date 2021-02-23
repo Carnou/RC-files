@@ -45,3 +45,8 @@ endif
 
 " always turn on the status bar
 set laststatus=2
+
+" OMG!  Make undo survive exiting the editor!
+set undodir=~/.vim/undodir
+set undofile
+
