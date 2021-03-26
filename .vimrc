@@ -22,6 +22,8 @@ set nofoldenable
 set splitright
 " Search terms are highlighted
 set hlsearch
+" Auto-write when you switch buffers, e.g. with tags
+set aw
 
 " wildmenu turns on tab completion when possible.  The next two lines let me use ctrl-j instead of the down arrow to go deeper inside a subdirectory during tab completion.
 set wildmenu
